@@ -1,0 +1,54 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+.pytest_cache
+
+# Virtual Environment
+.venv
+venv
+ENV
+env
+
+# Environment files
+.env
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Tests
+tests/
+test_*.py
+*_test.py
+
+# Development scripts
+setup.sh
+run_tests.sh
+start.sh
+test_api_local.sh
+
+# Old files
+weather_server.py
+requirements.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

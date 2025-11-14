@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.uv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/tmp/
+
+# Test outputs
+test_output/
+*.pyc
+
+# Development/Testing only files (not needed for deployment)
+test_mcp_client.py
+test_api_local.sh
+setup.sh
+run_tests.sh
+start.sh
+requirements.txt
+weather_server.py
+
+# Test directory (not needed for deployment)
+tests/
+
+# Documentation directory (not needed for deployment)
+docs/
+DEPLOYMENT_FILES.md
