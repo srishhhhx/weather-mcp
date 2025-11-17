@@ -63,6 +63,7 @@ run_tests.sh
 start.sh
 requirements.txt
 weather_server.py
+test_docker.sh
 
 # Test directory (not needed for deployment)
 tests/

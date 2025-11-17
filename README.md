@@ -1,4 +1,4 @@
-# Weather MCP Server 🌤️
+# Weather MCP Server
 
 A high-performance Model Context Protocol (MCP) server providing weather data for farming applications, optimized for the **KrishiMitra** project.
 
@@ -9,7 +9,7 @@ A high-performance Model Context Protocol (MCP) server providing weather data fo
 
 ---
 
-## 🎯 Quick Start
+## Quick Start
 
 ### 1. Installation
 ```bash
@@ -47,11 +47,11 @@ weather = await get_weather(12.9716, 77.5946)
 print(f"Temperature: {weather['temperature']}°C")
 ```
 
-**No server to run manually - FastMCP Client handles it automatically!** ✨
+**No server to run manually - FastMCP Client handles it automatically!**
 
 ---
 
-## ⚡ Performance Highlights
+## Performance Highlights
 
 | Metric | Value | Impact |
 |--------|-------|--------|
@@ -63,27 +63,27 @@ print(f"Temperature: {weather['temperature']}°C")
 
 ---
 
-## 🛠️ Features
+## Features
 
 ### Core Functionality
-- ✅ **Current Weather** - Real-time weather data
-- ✅ **5-Day Forecast** - Weather predictions
-- ✅ **Health Check** - Server status monitoring
+- **Current Weather** - Real-time weather data
+- **5-Day Forecast** - Weather predictions
+- **Health Check** - Server status monitoring
 
 ### Performance
-- ⚡ **5000x Cache Speedup** - Lightning-fast responses
-- 🎯 **90%+ Cache Hit Rate** - Minimal API calls
-- 📊 **100% Schema Consistency** - Reliable data structure
-- 🛡️ **Graceful Error Handling** - Stale cache fallback
+- **5000x Cache Speedup** - Lightning-fast responses
+- **90%+ Cache Hit Rate** - Minimal API calls
+- **100% Schema Consistency** - Reliable data structure
+- **Graceful Error Handling** - Stale cache fallback
 
 ### API Compliance
-- 💰 **Free Tier Compatible** - OpenWeather Free API
-- 🔒 **Rate Limit Safe** - Intelligent caching
-- 📈 **Scalable** - Handles 10,000+ users/day
+- **Free Tier Compatible** - OpenWeather Free API
+- **Rate Limit Safe** - Intelligent caching
+- **Scalable** - Handles 10,000+ users/day
 
 ---
 
-## 📊 Available Tools
+## Available Tools
 
 ### 1. `get_weather`
 Get current weather for coordinates.
@@ -150,7 +150,7 @@ Check server health status.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run All Tests
 ```bash
@@ -169,20 +169,20 @@ python test_mcp_client.py
 
 ### Test Results
 ```
-✅ Mock Tests:        31/31 passed (100%)
-✅ Real API Tests:    7/7 passed (100%)
-✅ Performance Tests: 5/5 passed (100%)
-✅ Integration Test:  Passed
+Mock Tests:        31/31 passed (100%)
+Real API Tests:    7/7 passed (100%)
+Performance Tests: 5/5 passed (100%)
+Integration Test:  Passed
 
 Total: 43/43 tests passing
 ```
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 ### Deployment Guides
-- **[Deploy Now](docs/DEPLOY_NOW.md)** - Quick 5-minute deployment ⭐
+- **[Deploy Now](docs/DEPLOY_NOW.md)** - Quick 5-minute deployment
 - **[Render Deployment](docs/RENDER_DEPLOYMENT.md)** - Complete deployment guide
 - **[Deployment Checklist](docs/DEPLOYMENT_CHECKLIST.md)** - Step-by-step verification
 - **[Deployment Summary](docs/DEPLOYMENT_SUMMARY.md)** - Overview
@@ -194,7 +194,7 @@ Total: 43/43 tests passing
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Weather MCP Server
@@ -214,7 +214,7 @@ Weather MCP Server
 
 ---
 
-## 🎯 Use Cases for KrishiMitra
+## Use Cases for KrishiMitra
 
 ### 1. Irrigation Scheduling
 ```python
@@ -251,7 +251,7 @@ async def check_pest_risk(lat, lon):
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 ```bash
@@ -271,7 +271,7 @@ PORT=10000             # MCP server port (default: 10000)
 
 ---
 
-## 📈 Performance Benchmarks
+## Performance Benchmarks
 
 ### Cache Performance
 ```
@@ -296,16 +296,16 @@ Without Cache:           ❌ Exceeds limit at 167 users
 
 ---
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Checklist
-- [x] API key configured
-- [x] Cache TTL optimized (10 min)
-- [x] Error handling tested
-- [x] Performance verified (5000x speedup)
-- [x] Free tier compliance confirmed
-- [x] Integration guide created
-- [x] Tests passing (43/43)
+- API key configured
+- Cache TTL optimized (10 min)
+- Error handling tested
+- Performance verified (5000x speedup)
+- Free tier compliance confirmed
+- Integration guide created
+- Tests passing (43/43)
 
 ### Monitoring
 ```python
@@ -320,7 +320,7 @@ if hit_rate < 0.8:
 
 ---
 
-## 🤝 Integration Methods
+## Integration Methods
 
 ### Method 1: FastMCP Client (Recommended)
 ```python
@@ -331,18 +331,18 @@ async with Client(MCP_WEATHER_PATH) as client:
 ```
 
 **Advantages:**
-- ✅ Native MCP protocol
-- ✅ Auto-start/stop server
-- ✅ Type-safe
-- ✅ No HTTP overhead
-- ✅ Simpler code
+- Native MCP protocol
+- Auto-start/stop server
+- Type-safe
+- No HTTP overhead
+- Simpler code
 
 ### Method 2: HTTP API (Not Recommended)
 HTTP wrapper available but FastMCP Client is preferred for better performance and simplicity.
 
 ---
 
-## 📊 Project Stats
+## Project Stats
 
 ```
 Lines of Code:           ~800
@@ -350,12 +350,12 @@ Test Coverage:           95%+
 Tests:                   43 (all passing)
 Performance:             5000x cache speedup
 API Compliance:          Free tier safe
-Production Ready:        ✅ Yes
+Production Ready:        Yes
 ```
 
 ---
 
-## 🔗 Quick Links
+## Quick Links
 
 - **Server:** `/Users/srishtikn/Docs/weather-mcp/weather_server_free.py`
 - **Tests:** `tests/test_performance_simple.py`
@@ -364,27 +364,27 @@ Production Ready:        ✅ Yes
 
 ---
 
-## ✅ Status
+## Status
 
-**Production Ready** ✨
+**Production Ready**
 
-- ⚡ **Performance:** 5000x cache speedup
-- 🛡️ **Reliability:** 100% test pass rate
-- 📊 **Consistency:** 100% schema match
-- 💰 **Cost:** Free tier compliant
-- 🚀 **Scalability:** 10,000+ users/day
+- **Performance:** 5000x cache speedup
+- **Reliability:** 100% test pass rate
+- **Consistency:** 100% schema match
+- **Cost:** Free tier compliant
+- **Scalability:** 10,000+ users/day
 
 **Approved for immediate integration with KrishiMitra project.**
 
 ---
 
-## 📝 License
+## License
 
 This project uses the OpenWeather API. Please review their [terms of service](https://openweathermap.org/terms).
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **FastMCP** - MCP framework
 - **OpenWeather** - Weather data API
@@ -392,4 +392,4 @@ This project uses the OpenWeather API. Please review their [terms of service](ht
 
 ---
 
-**Built with ❤️ for farmers using KrishiMitra**
+**Built with for farmers using KrishiMitra**
