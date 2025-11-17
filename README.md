@@ -179,21 +179,6 @@ Total: 43/43 tests passing
 
 ---
 
-## Documentation
-
-### Deployment Guides
-- **[Deploy Now](docs/DEPLOY_NOW.md)** - Quick 5-minute deployment
-- **[Render Deployment](docs/RENDER_DEPLOYMENT.md)** - Complete deployment guide
-- **[Deployment Checklist](docs/DEPLOYMENT_CHECKLIST.md)** - Step-by-step verification
-- **[Deployment Summary](docs/DEPLOYMENT_SUMMARY.md)** - Overview
-
-### Reference Documentation
-- **[Project Structure](PROJECT_STRUCTURE.md)** - File organization
-- **[API Subscription Info](docs/API_SUBSCRIPTION_REQUIRED.md)** - API tier details
-- **[Additional Docs](docs/)** - All other documentation
-
----
-
 ## Architecture
 
 ```
@@ -337,9 +322,6 @@ async with Client(MCP_WEATHER_PATH) as client:
 - No HTTP overhead
 - Simpler code
 
-### Method 2: HTTP API (Not Recommended)
-HTTP wrapper available but FastMCP Client is preferred for better performance and simplicity.
-
 ---
 
 ## Project Stats
@@ -349,18 +331,9 @@ Lines of Code:           ~800
 Test Coverage:           95%+
 Tests:                   43 (all passing)
 Performance:             5000x cache speedup
-API Compliance:          Free tier safe
-Production Ready:        Yes
+
 ```
 
----
-
-## Quick Links
-
-- **Server:** `/Users/srishtikn/Docs/weather-mcp/weather_server_free.py`
-- **Tests:** `tests/test_performance_simple.py`
-- **Integration:** [KRISHIMITRA_INTEGRATION.md](KRISHIMITRA_INTEGRATION.md)
-- **Performance:** [PERFORMANCE_REPORT.md](PERFORMANCE_REPORT.md)
 
 ---
 
@@ -371,25 +344,3 @@ Production Ready:        Yes
 - **Performance:** 5000x cache speedup
 - **Reliability:** 100% test pass rate
 - **Consistency:** 100% schema match
-- **Cost:** Free tier compliant
-- **Scalability:** 10,000+ users/day
-
-**Approved for immediate integration with KrishiMitra project.**
-
----
-
-## License
-
-This project uses the OpenWeather API. Please review their [terms of service](https://openweathermap.org/terms).
-
----
-
-## Acknowledgments
-
-- **FastMCP** - MCP framework
-- **OpenWeather** - Weather data API
-- **KrishiMitra** - Target farming assistant project
-
----
-
-**Built with for farmers using KrishiMitra**
